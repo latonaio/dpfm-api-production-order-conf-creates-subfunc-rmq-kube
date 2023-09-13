@@ -1,9 +1,9 @@
 package subfunction
 
 import (
-	api_input_reader "data-platform-api-production-order-confirmation-headers-creates-subfunc-rmq-kube/API_Input_Reader"
-	dpfm_api_output_formatter "data-platform-api-production-order-confirmation-headers-creates-subfunc-rmq-kube/API_Output_Formatter"
-	api_processing_data_formatter "data-platform-api-production-order-confirmation-headers-creates-subfunc-rmq-kube/API_Processing_Data_Formatter"
+	api_input_reader "data-platform-api-production-order-conf-creates-subfunc/API_Input_Reader"
+	dpfm_api_output_formatter "data-platform-api-production-order-conf-creates-subfunc/API_Output_Formatter"
+	api_processing_data_formatter "data-platform-api-production-order-conf-creates-subfunc/API_Processing_Data_Formatter"
 )
 
 func (f *SubFunction) SetValue(

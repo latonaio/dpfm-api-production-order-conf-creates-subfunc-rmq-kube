@@ -9,10 +9,12 @@ spec:
   selector:
     matchLabels:
       run: data-platform-api-production-order-conf-creates-subfunc
+      app: PRODUCTION_ORDER_CONFIRMATION
   template:
     metadata:
       labels:
         run: data-platform-api-production-order-conf-creates-subfunc
+        app: PRODUCTION_ORDER_CONFIRMATION
     spec:
       nodeName: worker
       hostname: data-platform-api-production-order-conf-creates-subfunc

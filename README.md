@@ -1,5 +1,5 @@
 # data-platform-api-production-order-conf-creates-subfunc
-data-platform-api-production-order-conf-creates-subfunc は、データ連携基盤において、オーダーAPIサービスのヘッダ登録/更新補助機能を担うマイクロサービスです。
+data-platform-api-production-order-conf-creates-subfunc は、データ連携基盤において、製造指図確認APIサービスのヘッダ登録/更新補助機能を担うマイクロサービスです。
 
 ## 動作環境
 ・ OS: LinuxOS  
